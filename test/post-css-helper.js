@@ -19,6 +19,14 @@ describe('post-css-helper', function () {
       var root = parseTestFileSync(filename);
       assert.equal(postCssHelper.getFileName(root.nodes[0]), path.resolve(__dirname, filename));
     });
+
+    it('should return the correct column and line from a css file', function () {
+      var filename = 'fixtures/css/test1/test.css';
+      var root = parseTestFileSync(filename);
+      var position = postCssHelper.getRuleSourceLocation(root.nodes[0]);
+      assert.equal(position.line, 1);
+      assert.equal(position.column, 1);
+    });
   });
 
 });
