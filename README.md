@@ -11,7 +11,7 @@
 Usage: `postcss-darlec [options] <css-file> [<source-map>]`
 
 Iterates through all files and looks for a .css-darlec file in the source files directory or its parent directories.
-The [.css-darlec file](https://github.com/jantimon/postcss-darlec/tree/master/test/fictures/.cssdarlec) limits the usage of the css properties
+The [.css-darlec file](https://github.com/jantimon/postcss-darlec/tree/master/test/fixtures/.cssdarlec) limits the usage of the css properties
 
 ## Tests
 
