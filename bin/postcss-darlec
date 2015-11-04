@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+
+var postcssLint = require('../');
+var program = require('commander');
+var cssFile, sourceMap;
+var colors = require('colors/safe');
+
+program
+  .version(require('../package.json').version)
+  .usage('[options] <css-file> [<source-map>]')
+  .arguments('<css-file> [[<source-map>]]')
+  .option('--no-color', 'Disable colored output')
+  .action(function (argCssFile, argSourceMap) {
+    cssFile = argCssFile;
+    sourceMap = argSourceMap;
+  })
+  .parse(process.argv);
+
+if (cssFile === undefined) {
+   program.outputHelp();
+   process.exit(1);
+}
+var lintResult = postcssLint.processFile(cssFile, sourceMap);
+postcssLint.outputWarnings(lintResult, function(level, message) {
+  if (level === 'log') {
+    console.log(message);
+  }
+  if (level === 'warn') {
+    console.log(colors.yellow(message));
+  }
+});

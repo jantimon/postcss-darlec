@@ -1,0 +1,32 @@
+{
+  "filter": ["**/test*.*"],
+  "allowedDeclarations": [
+    "display",
+    "top",
+    "bottom",
+    "left",
+    "right",
+    "float",
+    "clear",
+    "position",
+    "padding",
+    "padding-left",
+    "padding-right",
+    "padding-bottom",
+    "padding-top",
+    "margin",
+    "margin-left",
+    "margin-right",
+    "margin-bottom",
+    "margin-top",
+    "width",
+    "min-width",
+    "max-width",
+    "height",
+    "min-height",
+    "max-height",
+    "text-align",
+    "content",
+    "z-index"
+  ]
+}
