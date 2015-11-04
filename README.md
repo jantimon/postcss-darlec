@@ -3,7 +3,6 @@
 [![Build Status](https://travis-ci.org/jantimon/postcss-darlec.svg)](https://travis-ci.org/jantimon/postcss-darlec)
 [![NPM version](https://badge.fury.io/js/postcss-darlec.svg)](http://badge.fury.io/js/postcss-darlec)
 [![Coverage Status](https://coveralls.io/repos/jantimon/postcss-darlec/badge.png)](https://coveralls.io/r/jantimon/postcss-darlec)
-[![Code Climate](https://codeclimate.com/github/jantimon/postcss-darlec/badges/gpa.svg)](https://codeclimate.com/github/jantimon/postcss-darlec)
 [![Dependency Status](https://david-dm.org/jantimon/postcss-darlec.png)](https://david-dm.org/jantimon/postcss-darlec)
 
 **allow/disallow specific css properties**
