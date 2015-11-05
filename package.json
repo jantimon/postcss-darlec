@@ -1,6 +1,6 @@
 {
   "name": "postcss-darlec",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "allow to lint preprocessed css",
   "main": "index.js",
   "repository": {
@@ -18,13 +18,14 @@
   ],
   "author": "Jan Nicklas <j.nicklas@me.com> (https://github.com/jantimon)",
   "license": "MIT",
-  "engines" : { 
-      "node" : ">=0.12" 
-  }, 
+  "engines": {
+    "node": ">=0.12"
+  },
   "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "minimatch": "^3.0.0",
+    "path-sort": "^0.1.0",
     "postcss": "^5.0.10",
     "urldata": "0.0.1"
   },
