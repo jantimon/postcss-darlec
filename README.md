@@ -14,7 +14,7 @@ The [.css-darlec file](https://github.com/jantimon/postcss-darlec/tree/master/te
 
 ## Tests
 
-[![Build Status](https://secure.travis-ci.org/jantimon/html-tpl-loader.svg?branch=master)](http://travis-ci.org/jantimon/html-tpl-loader)
+[![Build Status](https://travis-ci.org/jantimon/postcss-darlec.svg)](https://travis-ci.org/jantimon/postcss-darlec)
 [![Coverage Status](https://coveralls.io/repos/jantimon/postcss-darlec/badge.png)](https://coveralls.io/r/jantimon/postcss-darlec)
 
 Run unit tests:
